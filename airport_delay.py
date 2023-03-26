@@ -76,6 +76,7 @@ report_list = ['Yearly Airline Performance Report', 'Yearly Airline Delay Report
 
 # Dash code for Application
 app = dash.Dash()
+server = app.server
 app.layout = html.Div(children=
     [# Title of webpage
     html.H1(
